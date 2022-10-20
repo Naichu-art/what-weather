@@ -1,0 +1,62 @@
+body {
+  font-family: "Roboto Mono", monospace;
+}
+.iconos {
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+.monday {
+  border: 1px solid #555;
+  padding: 2px;
+  margin-right: 20px;
+}
+.tuesday {
+  border: 1px solid #555;
+  padding: 2px;
+  margin-right: 20px;
+}
+.wedday {
+  border: 1px solid #555;
+  padding: 2px;
+  margin-right: 20px;
+}
+.thursday {
+  border: 1px solid #555;
+  padding: 2px;
+  margin-right: 20px;
+}
+.friday {
+  border: 1px solid #555;
+  padding: 2px;
+  margin-right: 20px;
+}
+.saturday {
+  border: 1px solid #555;
+  padding: 2px;
+  margin-right: 20px;
+}
+h1,
+h2,
+p {
+  color: rgb(144, 89, 255);
+}
+p {
+  margin-top: 33px;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+h1 {
+  font-size: 55px;
+  margin-top: 10px;
+}
+h2 {
+  font-size: 20px;
+  margin-bottom: 33px;
+}
+.card {
+  padding: 15px;
+  margin-top: 33px;
+  margin-right: 500px;
+}

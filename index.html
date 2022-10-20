@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/55589bfcba.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="src/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Freehand&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <div class="row iconos">
+            <div class="col monday">
+              <i class="fa-solid fa-cloud-sun-rain Monday"></i>
+            </div>
+            <div class="col tuesday">
+              <i class="fa-solid fa-cloud-sun-rain Tuesday"></i>
+            </div>
+            <div class="col wedday">
+              <i class="fa-solid fa-cloud-sun-rain Wedday"></i>
+            </div>
+            <div class="col thursday">
+              <i class="fa-solid fa-wind Thursday"></i>
+            </div>
+            <div class="col friday">
+              <i class="fa-regular fa-sun Friday"></i>
+            </div>
+            <div class="col saturday">
+              <i class="fa-regular fa-sun Saturday"></i>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col Monday1">Monday</div>
+            <div class="col">Tuesday</div>
+            <div class="col">Wedday</div>
+            <div class="col">Thursday</div>
+            <div class="col">Friday</div>
+            <div class="col">Saturday</div>
+          </div>
+          <p id="date">
+            Sunday
+            <br id="time" />
+            11:05
+          </p>
+          <h1 id="temp">2º <i class="fa-solid fa-wind"></i></h1>
+          <h2 id="cope">Copenhagen</h2>
+          <form class="row" id="cities">
+            <div class="col-8">
+              <label for="inputPassword2" class="visually-hidden"
+                >Password</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="inputPassword2"
+                placeholder="Enter your city"
+              />
+            </div>
+            <div class="col-2">
+              <button type="submit" class="btn btn-primary mb-3">Search</button>
+            </div>
+            <div class="col-2">
+              <button class="btn btn-success mb-3">Current</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
